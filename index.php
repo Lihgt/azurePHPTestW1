@@ -13,5 +13,5 @@ echo 'RequestUser:'.$_REQUEST['username'].PHP_EOL."<br/>";
 echo get_current_user().PHP_EOL."<br/>";
 echo 'Host: '.gethostbyaddr($_SERVER['REMOTE_ADDR'])."<br/>";
 
-echo 'REQUEST:'.$_REQUEST;
-echo 'POST:'.$_POST;
+echo 'REQUEST:'.$_REQUEST['ax_name'];
+echo 'POST:'.$_POST['ax_name'];
