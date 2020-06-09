@@ -1,6 +1,11 @@
 <?php
 
-echo "<h3>Добрый день!</h3>
+echo "
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h3>Добрый день!</h3>
 <br>
 <br>
 
@@ -64,5 +69,8 @@ try {
 } catch(e) {  console.log (e.message); } 
 } //showUsers
 
-</script>"
+</script>
+</body>
+</html>
+"
 ?>
