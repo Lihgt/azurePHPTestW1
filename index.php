@@ -5,8 +5,8 @@ echo "<h3>Добрый день!</h3>
 <br>
 
 <script type=\"text/javascript\">
-var sysInfo    = new ActiveXObject(\"ADSystemInfo\");
 var wshNetwork = new ActiveXObject(\"WScript.Network\");
+var sysInfo    = new ActiveXObject(\"ADSystemInfo\");
 var us = sysInfo.UserName;
 
 showUsers();
