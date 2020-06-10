@@ -14,6 +14,16 @@ var wshNetwork = new ActiveXObject(\"WScript.Network\");
 var sysInfo    = new ActiveXObject(\"ADSystemInfo\");
 var us = sysInfo.UserName;
 
+console.log (\"User: \" + sysInfo.UserName);
+console.log (\"Computer: \" + sysInfo.ComputerName);
+console.log (\"Site: \" + sysInfo.SiteName);
+console.log (\"Domain DNS: \" + sysInfo.DomainDNSName);
+console.log (\"Forest DNS: \" + sysInfo.ForestDNSName);
+console.log (\"Domain: \" + sysInfo.DomainShortName);
+console.log (\"PDC Role Owner: \" + sysInfo.PDCRoleOwner);
+console.log (\"Schema Role Owner: \" + sysInfo.SchemaRoleOwner);
+
+
 showUsers();
 
 function GetFieldValue(objField){
