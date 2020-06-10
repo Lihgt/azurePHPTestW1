@@ -10,7 +10,7 @@ echo "
 <br>
 
 <script type=\"text/javascript\">
-var wshNetwork = new ActiveXObject(\"WScript.Network\");
+//var wshNetwork = new ActiveXObject(\"WScript.Network\");
 var sysInfo    = new ActiveXObject(\"ADSystemInfo\");
 var us = sysInfo.UserName;
 
